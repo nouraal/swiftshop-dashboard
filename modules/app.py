@@ -2,6 +2,7 @@
 # ----------------- Import Libraries  ------------------
 # ======================================================
 import dash
+import os
 from dash import dcc, html, Input, Output, State, dash_table
 import dash_bootstrap_components as dbc
 import plotly.express as px
@@ -14,7 +15,10 @@ import data_clean
 # --------------- Load / Prepare Data  -----------------
 # ======================================================
 # --- Load the dataset from CSV file ---
-df = pd.read_csv("data/swiftshop_sales_data.csv")
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+data_path = os.path.join(project_root, "data", "swiftshop_sales_data.csv")
+
+df = pd.read_csv(data_path)
 df = data_clean.clean(df)
 
 # --- 1. Remove Columns for DataTable and CSV export ---
@@ -338,4 +342,5 @@ def export_csv(n_clicks, data):
 # ======================================================
 if __name__ == "__main__":
     app.run(debug=True, use_reloader=True)
+
 
