@@ -31,12 +31,13 @@ The dashboard provides **KPIs, charts, and filters** to explore SwiftShop sales 
 
 project/
 │
-├── app.py # Main Dash app
-├── data_clean.py # Data cleaning functions
-├── requirements.txt # Project dependencies
+├── modules/
+│   ├── app.py        # Main Dash app
+│   └── data_clean.py # Data cleaning functions
+├── requirements.txt  # Project dependencies
 ├── data/
-│ └── swiftshop_sales_data.csv # Sales dataset
-└── README.md # Project documentation
+│   └── swiftshop_sales_data.csv # Sales dataset
+└── README.md         # Project documentation
 
 ---
 
@@ -59,6 +60,7 @@ pip install -r requirements.txt
 ```
 ### ▶️ Run the App
 ```
+cd modules
 python app.py
 
 The app will run locally at:
@@ -77,4 +79,5 @@ http://127.0.0.1:8050/
 * Pandas
 * Plotly
 * Dash
+
 * Dash Bootstrap Components
