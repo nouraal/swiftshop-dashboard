@@ -82,6 +82,7 @@ http://127.0.0.1:8050/
 > Main Dashboard Page:
 >> Top Section: Displays key metrics such as Total Sales, Number of Orders, Average Order Value, and Average Rate.
 >> Charts: Visual representations of sales data and other key performance indicators.
+
 > Order Details Page:
 >> Charts: Detailed visualizations of order data.
 >> Data Table: A comprehensive table listing order details.
@@ -94,5 +95,6 @@ http://127.0.0.1:8050/
 * Dash
 
 * Dash Bootstrap Components
+
 
 
