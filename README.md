@@ -83,9 +83,9 @@ http://127.0.0.1:8050/
 >> Top Section: Displays key metrics such as Total Sales, Number of Orders, Average Order Value, and Average Rate.
 >> Charts: Visual representations of sales data and other key performance indicators.
 > Order Details Page:
->>Charts: Detailed visualizations of order data.
->>Data Table: A comprehensive table listing order details.
->>Filters: Interactive filters to refine the displayed data based on various parameters.
+>> Charts: Detailed visualizations of order data.
+>> Data Table: A comprehensive table listing order details.
+>> Filters: Interactive filters to refine the displayed data based on various parameters.
 
 ###  🛠️ Technologies Used
 * Python 3.10+
@@ -94,4 +94,5 @@ http://127.0.0.1:8050/
 * Dash
 
 * Dash Bootstrap Components
+
 
